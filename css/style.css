@@ -1,2 +1,23 @@
 @import "reset.css";
 @import "general.css";
+
+/* Header */
+
+/* Main */
+
+/* Responsive */
+
+/* Mobile piccolo */
+@media screen and (max-width: 600px) {
+
+}
+
+/* Mobile grande */
+@media screen and (max-width: 700px) {
+
+}
+
+/* Tablet */
+@media screen and (max-width: 110px) {
+
+}

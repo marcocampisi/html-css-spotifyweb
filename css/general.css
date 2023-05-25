@@ -3,3 +3,24 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+
+.container {
+
+}
+
+.centered {
+    text-align: center;
+    justify-content: center;
+}
+
+.flexed {
+    display: flex;    
+}
+
+.bold-text {
+    font-weight: 700;    
+}
+
+.main-h2 {
+    font-size: 2em;    
+}
