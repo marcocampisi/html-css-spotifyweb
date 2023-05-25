@@ -53,8 +53,9 @@ header > .container {
     top: 0;
     bottom: 0;
     width: 17.5rem;
+    min-height: calc(100vh - 4.6875rem);
     background-color: black;
-    padding: 1.25rem;
+    padding: 1.5rem;
     z-index: 2;
 }
 
@@ -109,8 +110,6 @@ header > .container {
 .bottom-buttons {
     display: flex;
     flex-direction: column;
-    padding-bottom: .9375rem;
-    margin-top: 5rem;
 }
 
 .install-app-button {
@@ -285,7 +284,26 @@ footer {
 .now-playing {
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     width: calc(100% / 4);
+    padding: 1.25rem;
+}
+
+.album-cover {
+    width: 20%;
+    margin-right: 1.25rem;
+}
+
+.album-cover img {
+    width: 100%;
+}
+
+.song-artist {
+    color: gray;
+}
+
+.song-info-button i {
+    color: gray;
 }
 
 .playback-bar {

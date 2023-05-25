@@ -30,3 +30,14 @@ body {
 .main-h2 {
     font-size: 2em;    
 }
+
+.song-info-button {
+    background: none;
+    border: none;
+    margin: 0 .3125rem;
+}
+
+.footer-control-button {
+    background: none;
+    border: none;
+}
