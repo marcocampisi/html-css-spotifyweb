@@ -36,11 +36,6 @@ header > .container {
 
 /* Main */
 
-.container-main {
-    width: 100%;
-    padding-top: 4.6875rem;
-}
-
 /* Sidebar */
 
 .container-sidebar {
@@ -148,7 +143,50 @@ header > .container {
     font-size: 1.2em;
 }
 
+/* Vista principale main */
 
+.container-main {
+    flex-grow: 1;
+    background-color: #080B12;
+    margin-top: 4.6875rem;
+    margin-left: 17.5rem;
+    height: 100%;
+    color: white;
+}
+
+.main-categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.25rem 0;
+}   
+
+.main-categories ul {
+    list-style: none;
+}
+
+.main-categories ul li {
+    display: inline-block;
+    margin: 0.625rem .625rem;
+    color: gray;
+    font-weight: 700;
+}
+
+.evidenza {
+    position: relative;
+}
+
+.evidenza::after {
+    content: "";
+    position: absolute;
+    bottom: -0.3125rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2.5rem;
+    height: 3px;
+    background-color: #ADFF20;
+}
 
 /* Responsive */
 

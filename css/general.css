@@ -4,9 +4,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-color: #080B12;
+}
+
 .container {
     max-width: 100%;
     margin: 0 auto;
+    height: 100%;
 }
 
 .centered {
