@@ -189,13 +189,19 @@ header > .container {
     background-color: #ADFF20;
 }
 
-.main-titles * {
+.main-titles h2 {
     color: white;
     font-size: 2em;
     padding: 2rem 0;
 }
 
-.recently-played {
+.main-titles h4 {
+    color: gray;
+    margin-top: -1.25rem;
+    margin-bottom: 2rem;
+}
+
+.content-row {
     display: flex;
     flex-direction: row;
     padding: 0 1.25rem;
@@ -245,6 +251,10 @@ header > .container {
 
 .play-button-overlay:hover {
     cursor: pointer;
+}
+
+.artists img {
+    border-radius: 50%;
 }
 
 /* Responsive */
