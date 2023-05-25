@@ -152,6 +152,7 @@ header > .container {
     margin-left: 17.5rem;
     height: 100%;
     color: white;
+    flex-direction: column;
 }
 
 .main-categories {
@@ -186,6 +187,64 @@ header > .container {
     width: 2.5rem;
     height: 3px;
     background-color: #ADFF20;
+}
+
+.main-titles * {
+    color: white;
+    font-size: 2em;
+    padding: 2rem 0;
+}
+
+.recently-played {
+    display: flex;
+    flex-direction: row;
+    padding: 0 1.25rem;
+}
+
+.content-card {
+    text-align: center;
+    width: calc((100% / 6) - 2.5rem);
+    margin: 0 1.25rem;
+    position: relative;
+}
+
+.content-card img {
+    width: 100%;
+}
+
+.content-card * {
+    padding-bottom: .9375rem;
+}
+
+.content-card h4 {
+    color: gray;
+}
+
+.image-overlay {
+    position: relative;
+    display: inline-block;
+}
+
+.image-overlay img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.play-button-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;    
+}
+
+.play-button-overlay i {
+    font-size: 4rem;
+}
+
+.play-button-overlay:hover {
+    cursor: pointer;
 }
 
 /* Responsive */
