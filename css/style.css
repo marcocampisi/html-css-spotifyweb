@@ -34,6 +34,15 @@ header > .container {
     
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo-container > img{
+    width: 60%;
+}
 /* Main */
 
 /* Sidebar */
@@ -51,16 +60,6 @@ header > .container {
 
 .container-sidebar * {
     margin-bottom: .9375rem;
-}
-
-.logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.logo-container > img{
-    width: 60%;
 }
 
 .sidebar-nav {
@@ -150,6 +149,7 @@ header > .container {
     background-color: #080B12;
     margin-top: 4.6875rem;
     margin-left: 17.5rem;
+    margin-bottom: 6.25rem;
     height: 100%;
     color: white;
     flex-direction: column;
