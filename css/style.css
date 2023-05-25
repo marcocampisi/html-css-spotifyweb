@@ -257,6 +257,17 @@ header > .container {
     border-radius: 50%;
 }
 
+/* Footer */
+
+footer {
+    height: 4.6875rem;
+    width: 100%;
+    background-color: #181818;
+    position: fixed;
+    z-index: 3;
+
+}
+
 /* Responsive */
 
 /* Mobile piccolo */
