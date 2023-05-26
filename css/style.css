@@ -278,6 +278,7 @@ header > .container {
 }
 
 .play-button-overlay {
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -289,7 +290,8 @@ header > .container {
     font-size: 4rem;
 }
 
-.play-button-overlay:hover {
+.content-card:hover .play-button-overlay {
+    display: block;
     cursor: pointer;
 }
 
