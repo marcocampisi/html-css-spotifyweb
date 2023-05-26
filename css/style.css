@@ -35,6 +35,11 @@ header > .container {
     
 }
 
+.header-button:hover {
+    font-size: 1em;
+    cursor: pointer;    
+}
+
 .logo-container {
     display: flex;
     align-items: center;
@@ -44,6 +49,7 @@ header > .container {
 .logo-container > img{
     width: 60%;
 }
+
 /* Main */
 
 /* Sidebar */
