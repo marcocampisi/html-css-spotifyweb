@@ -178,6 +178,11 @@ header > .container {
     font-size: 1.2em;
 }
 
+.sb-hover:hover {
+    color: white;
+    cursor: pointer;
+}
+
 /* Vista principale main */
 
 .container-main {
