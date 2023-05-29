@@ -299,7 +299,7 @@ header > .container {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;    
+    color: white;
 }
 
 .play-button-overlay i {
@@ -309,6 +309,11 @@ header > .container {
 .content-card:hover .play-button-overlay {
     display: block;
     cursor: pointer;
+}
+
+.content-card:hover .image-overlay img {
+    filter: brightness(0.5);
+    transition: all 0.2s ease-in-out;
 }
 
 .artists img {
