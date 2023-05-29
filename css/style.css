@@ -31,13 +31,13 @@ header > .container {
     border: 2px solid white;
     border-radius: 1.25rem;
     padding: .625rem 1.25rem;
-    margin-right: 2.5rem;
-    
+    margin-right: 2.5rem; 
+    transition: all 0.2s ease-in-out;
 }
 
 .header-button:hover {
     font-size: 1em;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
 .logo-container {
@@ -290,7 +290,7 @@ header > .container {
 .image-overlay img {
     display: block;
     width: 100%;
-    height: auto;
+    height: auto;transition: all 0.2s ease-in-out;
 }
 
 .play-button-overlay {
@@ -313,7 +313,6 @@ header > .container {
 
 .content-card:hover .image-overlay img {
     filter: brightness(0.5);
-    transition: all 0.2s ease-in-out;
 }
 
 .artists img {
